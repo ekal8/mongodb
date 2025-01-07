@@ -30,9 +30,36 @@ h2 {
     color: #4CAF50; /* Dark Green */  
 }  
   
+/* Responsive iframe */  
+iframe {  
+    width: 100%; /* Make iframe responsive */  
+    height: auto; /* Maintain aspect ratio */  
+    max-height: 541.25px; /* Set a max height */  
+}  
+  
+/* Footer */  
 footer {  
     text-align: center;  
     margin-top: 20px;  
     font-size: 0.9em;  
     color: #4CAF50; /* Dark Green */  
+}  
+  
+/* Media Queries for Mobile Devices */  
+@media (max-width: 768px) {  
+    body {  
+        padding: 10px; /* Reduce padding on smaller screens */  
+    }  
+  
+    section {  
+        padding: 15px; /* Reduce padding in sections */  
+    }  
+  
+    h2 {  
+        font-size: 1.5em; /* Adjust heading size */  
+    }  
+  
+    footer {  
+        font-size: 0.8em; /* Adjust footer size */  
+    }  
 }  
