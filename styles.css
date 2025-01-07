@@ -33,9 +33,11 @@ h2 {
 /* Responsive iframe */  
 iframe {  
     width: 100%; /* Make iframe responsive */  
-    height: auto; /* Maintain aspect ratio */  
-    max-height: 541.25px; /* Set a max height */  
+    height: 800px; /* Set a fixed height */  
+    max-height: 800px; /* Set a max height */  
+    border: none; /* Remove border */  
 }  
+
   
 /* Footer */  
 footer {  
