@@ -3,11 +3,11 @@ body {
     margin: 0;  
     padding: 20px;  
     background-color: #F4F4F4; /* Light Gray */  
-    color: #333333; /* Dark Gray */  
+    color: #000000; /* Black */  
 }  
   
 header {  
-    background: #4CAF50; /* Dark Green */  
+    background: #4A4A4A; /* Dark Gray */  
     color: white;  
     padding: 10px 0;  
     text-align: center;  
@@ -27,7 +27,7 @@ section {
   
 h2 {  
     margin-top: 0;  
-    color: #4CAF50; /* Dark Green */  
+    color: #D4AF37; /* Gold */  
 }  
   
 /* Responsive iframe */  
@@ -37,14 +37,13 @@ iframe {
     max-height: 800px; /* Set a max height */  
     border: none; /* Remove border */  
 }  
-
   
 /* Footer */  
 footer {  
     text-align: center;  
     margin-top: 20px;  
     font-size: 0.9em;  
-    color: #4CAF50; /* Dark Green */  
+    color: #4A4A4A; /* Dark Gray */  
 }  
   
 /* Media Queries for Mobile Devices */  
