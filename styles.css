@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;  
     margin: 0;  
     padding: 20px;  
-    background-color: #f4f4f4;  
+    background-color: #F4F4F4; /* Light Gray */  
+    color: #333333; /* Dark Gray */  
 }  
   
 header {  
-    background: #007bff;  
+    background: #4CAF50; /* Dark Green */  
     color: white;  
     padding: 10px 0;  
     text-align: center;  
@@ -26,10 +27,12 @@ section {
   
 h2 {  
     margin-top: 0;  
+    color: #4CAF50; /* Dark Green */  
 }  
   
 footer {  
     text-align: center;  
     margin-top: 20px;  
     font-size: 0.9em;  
+    color: #4CAF50; /* Dark Green */  
 }  
